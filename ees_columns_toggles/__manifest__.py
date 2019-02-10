@@ -1,7 +1,7 @@
 {
-    'name': 'Columns visibility toggles for treeview',
-    'version': '11.0.4.8',
-    'author': 'Hideki Yamamoto',
+    'name': 'EESTISOFT - columns toggles',
+    'version': '12.0.1.0',
+    'author': 'EESTISOFT', 'Hideki Yamamoto',
     'category': 'Productivity',
     'website': 'https://www.eestisoft.com',
     'sequence': 2,
@@ -17,7 +17,7 @@ Allows to switch visibility of individual columns in odoo.
 
 Steps:
 1-Install module
-2-Restart odoo service - this is important for somewhat reason.
+2-Restart odoo service - this is necessary to immediately rebuild the assets chache.
 3-Clear browser cache and goto any odoo page with treeview, that is the table view in odoo wher you would normally have crate / import
 4-Notice the new button near create or import - use it
 
