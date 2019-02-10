@@ -1,6 +1,6 @@
 {
     'name': 'EESTISOFT - columns toggles',
-    'version': '11.0.4.8',
+    'version': '12.0.1.0',
     'author': 'EESTISOFT', 'Hideki Yamamoto',
     'category': 'Productivity',
     'website': 'https://www.eestisoft.com',
