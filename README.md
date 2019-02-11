@@ -1,6 +1,6 @@
 # ees_columns_toggles
 Shows column visibility toggles in treeview
-
+Substantial rework of sunpop.cn 'app_dynamic_list' module to achieve compatibility with odoo 11 and 12
 
 USAGE
 =====
