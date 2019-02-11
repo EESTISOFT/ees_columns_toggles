@@ -4,10 +4,10 @@ Shows column visibility toggles in treeview
 
 USAGE
 =====
-  1 - Install module
-  2 - Restart odoo service - this is necessary to immediately rebuild the assets chache.
-  3 - Clear browser cache and goto any odoo page with treeview, that is the table view in odoo wher you would normally have crate / import
-  4 -Notice the new button near create or import - use it
+- 1 Install module
+- 2 Restart odoo service - this is necessary to immediately rebuild the assets chache.
+- 3 Clear browser cache and goto any odoo page with treeview, that is the table view in odoo wher you would normally have crate / import
+- 4 Notice the new button near create or import - use it
 
 This will only allow the fields that are declared in the treeview so you could optionally tweak the tree views you want:
 - Open configuration(in debug mode) / technical / user interface / views 
