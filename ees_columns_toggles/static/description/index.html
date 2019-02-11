@@ -1,53 +1,17 @@
-<section class="oe_container">
-    <div class="oe_row oe_spaced">
-        <div class="oe_span12">
-            <h2 class="oe_slogan">Customize hide/show the columns on the list (tree) view dynamically</h2>
-            <div class="oe_demo" style=" margin: 30px auto 0; padding: 0 15px 0 0; border:none; width: 96%;">
-                <p> Substantial rework of sunpop.cn 'app_dynamic_list' module to achieve compatibility with odoo 11 and 12<br><br>This moduld allows user to customize columns dynamically in list (tree) view of any object of any
-                    installed module. </p>
-
-                <br>
-                <p>"Set Columns" button contains all field(s) in dropdown with checkbox which will exist in
-                    list view of current object. So if user wants to show/hide any field, then he/she has to just do
-                    check/uncheck that respective checkbox besides field name in dropdown list and then just click on
-                    "Apply" button.</p>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- <div class="oe_row oe_spaced">
-
-        <div class="oe_demo"
-             style=" margin: 60px auto 0; padding: 0 15px 0 0; border:none; border-top:solid 1px #dedede; width: 96%;">
-            <ul>
-                <li><p class='oe_mt32'>Sales leads in Enterprise Edition</p></li>
-            </ul>
-        </div>
-        <div class="oe_demo oe_picture oe_screenshot">
-            <img src="sales_ent.png" style="border:1px solid black"/>
-            <br/>
-        </div>
-
-        <div class="oe_demo"
-             style=" margin: 60px auto 0; padding: 0 15px 0 0; border:none; border-top:solid 1px #dedede; width: 96%;">
-            <ul>
-                <li><p class='oe_mt32'>Sales leads in Community Edition</p></li>
-            </ul>
-        </div>
-
-        <div class="oe_demo oe_picture oe_screenshot">
-            <img src="sales_com.png" style="border:1px solid black"/>
-            <br/>
-        </div>
-    </div> -->
-    </div>
-</section>
-<!-- <section class="oe_container oe_dark">
-    <div class="oe_row oe_spaced text-center">
-        <div class="oe_span12">
-            <h2 class="oe_slogan">Technical Help & Support</h2>
-        </div>
-        
-    </div>
-</section> -->
+<article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-ees_columns_toggles" class="anchor" aria-hidden="true" href="#ees_columns_toggles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ees_columns_toggles</h1>
+<p>Shows column visibility toggles in treeview</p>
+<h1><a id="user-content-usage" class="anchor" aria-hidden="true" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>USAGE</h1>
+<ul>
+<li>1 Install module</li>
+<li>2 Restart odoo service - this is necessary to immediately rebuild the assets chache.</li>
+<li>3 Clear browser cache and goto any odoo page with treeview, that is the table view in odoo wher you would normally have crate / import</li>
+<li>4 Notice the new button near create or import - use it</li>
+</ul>
+<p>This will only allow the fields that are declared in the treeview so you could optionally tweak the tree views you want:</p>
+<ul>
+<li>Open configuration(in debug mode) / technical / user interface / views</li>
+<li>Filter only tree and search for the model you want to modify the tree.</li>
+<li>If you want the fields to be open by default then add the fields like &lt;field name="email" /&gt;</li>
+<li>If you want the fields to be hidden by default, BUT AVAILABLE then add the fields like &lt;field name="email" invisible="1"/&gt;</li>
+</ul>
+</article>
