@@ -31,7 +31,7 @@ This will only allow the fields that are declared in the treeview so you could o
 Made with love.
 
     """,
-    'images': [],
+    
     'depends': ['web'],
     'data': [
 		'views/ees_columns_toggles.xml',
