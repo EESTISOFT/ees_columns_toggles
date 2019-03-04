@@ -7,7 +7,7 @@
     'sequence': 2,
     'summary': 'Allows to toggle visibility of columns for every treeview in odoo',
     'description': """
-	'images':['static/description/thumbs.png'],
+	'images':['static/description/thumb.png'],
 
 Columns toggles for treeview
 
