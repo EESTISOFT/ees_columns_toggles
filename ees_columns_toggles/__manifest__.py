@@ -6,7 +6,7 @@
     'website': 'https://www.eestisoft.com',
     'sequence': 2,
     'summary': 'Allows to toggle visibility of columns for every treeview in odoo',
-	'images':['static/description/thumb.png'],
+	'images':['static/description/column.png'],
     'description': """
 
 Columns toggles for treeview
